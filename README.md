@@ -1,7 +1,4 @@
-# tic-tac-toe-js
-<div>❌⭕️◼️</div>
-<div>❌⭕️◼️</div>
-<div>❌◼️⭕️</div>
-<br>
-<p>This page is the classic tic-tac-toe, where the first player to have 3 tiles of their color in a line wins.</p>
-<p>This website is powered by vanilla JavaScript. I hope you like it.</p>
+# calculator-js
+This page is a calculator, this website is powered by vanilla JavaScript. I hope you like it.
+
+<img width="1416" alt="Captura de Pantalla 2023-04-10 a las 23 27 43" src="https://user-images.githubusercontent.com/112553001/231003389-6565c775-bad2-458b-97c8-9b8cd1efbe85.png">
