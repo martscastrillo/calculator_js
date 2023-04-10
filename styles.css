@@ -4,9 +4,17 @@
 	box-sizing: border-box;
 	font-family: 'Roboto Mono', monospace;
 }
-body{
+.body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	height: 100vh;
 	background: linear-gradient(to bottom, #f9544c 50%, #090c31 50%);
+}
+h1{
+	color: #090c31;
+	margin: 120px;
+	text-transform: uppercase;
 }
 .calculator{
 	width: 400px;
@@ -49,10 +57,12 @@ body{
 .buttons input[type="button"]:hover{
 	box-shadow: 0 8px 25px #000d2e;
 }
-input[type="button"]#equal{
-	grid-row: span 2;
+.equal{
+	 grid-row: span 2;
 	background-color: #f9544c;
+	border-radius: 2px;
 }
+
 input[type="button"][value="0"]{
 	grid-column: span 2;
 }
