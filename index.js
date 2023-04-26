@@ -14,7 +14,7 @@ let erase = document.getElementById("erase");
 window.onload = () => {
     input.value = "";
 };
-
+console.log(  input.value);
 button_input.forEach((button_class) => {
     button_class.addEventListener("click", ()=>{
         if(equal_pressed ==1){
@@ -24,19 +24,23 @@ button_input.forEach((button_class) => {
         input.value += button_class.value;
     })
 });
+
 equal.addEventListener("click", ()=>{
     equal_pressed = 1;
     let inp_val = input.value;
     try {
-        let solution = eval (inp_val);
+        let solution = eval(inp_val);
+        console.log(solution);
         if(Number.isInteger(solution)){
-            input.value= solution
+            input.value= solution;
+          
         }
         else{
             input.value = solution.toFixed(2);
         }
       } catch (error) {
        alert("Invalid Input");
+       console.log('aqui')
       }
       
 });
